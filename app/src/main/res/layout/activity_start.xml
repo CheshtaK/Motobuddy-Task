@@ -6,16 +6,12 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    android:background="@color/colorPrimary"
     tools:context=".StartActivity">
 
-    <TextView
-        android:layout_marginTop="200dp"
+    <ImageButton
+        android:src="@drawable/icon"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="MotoBuddy"
-        android:textColor="#FFFF"
-        android:textSize="24sp"/>
+        android:layout_height="wrap_content"/>
 
     <Button
         android:id="@+id/btnLogin"

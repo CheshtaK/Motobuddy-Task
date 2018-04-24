@@ -100,6 +100,7 @@ public class RegisterActivity extends AppCompatActivity {
                     });
                 }
                 else{
+                    regProgress.dismiss();
                     Toast.makeText(RegisterActivity.this, "Cannot create your account. Please check the form and try again", Toast.LENGTH_LONG).show();
                 }
             }

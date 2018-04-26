@@ -61,10 +61,6 @@ public class MainActivity extends AppCompatActivity {
             sendToStart();
         }
 
-        if(item.getItemId() == R.id.btnHospital){
-
-        }
-
         return true;
     }
 }

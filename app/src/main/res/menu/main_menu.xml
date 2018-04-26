@@ -3,9 +3,6 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/btnHospital"
-        android:title="Show Hospitals" />
-    <item
         android:id="@+id/btnLogout"
         android:title="Logout" />
 
